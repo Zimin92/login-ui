@@ -1,12 +1,52 @@
+body{
+  background-image: url(https://images.photowall.com/products/58243/galaxy-1.jpg?h=699&q=85);
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+}
 .parent-container{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin-top: 250px;
 }
 
 .child-item{
-  width: 300px;
-  height: 300px;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 300px;
+  border: 5px solid;
+  border-color: white;
+  border-radius: 20px;
+  background-color: rgba(12, 12, 83, 0.507);
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.5);
   text-align: center;
+  padding: 30px;
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+input{
+  padding: 5px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+input[type="password"]{
+  margin-bottom: ;
+}
+
+button{
+  background-color: rgb(40, 0, 77);
+  color: azure;
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.315);
 }
